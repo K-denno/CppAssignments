@@ -1,0 +1,12 @@
+Question 1
+-> I has been initialised but no value has be assigned to it. In a small program this is not a problem but in large scale programs this is a problem as that memory space cannot be reassigned. 
+-> Also the #define initialise global variable which are not used within the program only for loops. The memory locations they occupy are not reaasigned hence they use up memory space even when they are not being used. I has been initialised inside the loops to make it possible for he compiler to delete it from memory once the loop completes and reassign that memory.
+-> 
+Question 2
+-> create a memory space (name[i]) and assigns it a storage space of sizeofChar * NAME_LENGTH
+-> Free(name) allows the os to delete values saved in the memory space if it was used in the middle of the program it would delete the variable from the memory space and allow the OS to reassign the memory
+
+Question 3
+-> Stack memory stores static variables that do not change during runtine ie global variables eg: #define goats 3 while heap memory holds dynamic variables ie loop variable ...for(int i=0;i<4;i++)... int i is a dynamic variable
+-> Structs cannot have parameterless constructors while classes can
+-> Copiler directives are used to import header file ie stdio.h is a standard input output header file that include input and output devices in th program,stdlib.h is for standard librabry. To import math function we include math.h ie ... #include <math.h> 
